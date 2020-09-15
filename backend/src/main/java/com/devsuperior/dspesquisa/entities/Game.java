@@ -23,7 +23,6 @@ public class Game implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-
 	private Long id;
 	private String title;
 	private Platform platform;
